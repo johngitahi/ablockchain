@@ -71,7 +71,7 @@ class Blockchain:
         :param proof: <int> Current Proof
         :return: <bool> True if correct, False if not.
         """
-        guess = f'last_proof}{proof}'.encode()
+        guess = f"{last_proof}{proof}".encode()
         guess_hash = hashlib.sha256(guess).hexdigest()
         return guess_hash[:4] == "0000"
 

@@ -1,0 +1,1 @@
+Blockchain: [{'index': 1, 'timestamp': 1712397647.3474426, 'transactions': [], 'proof': 100, 'previous_hash': '1'}, {'index': 2, 'timestamp': 1712397647.4273863, 'transactions': [{'sender': 'Alice', 'recipient': 'Bob', 'amount': 0.43}], 'proof': 35293, 'previous_hash': 'aba131be7b3dcfe657fff8bc933e1a8e6acdab88db9998aacb3779bd4a726308'}]
